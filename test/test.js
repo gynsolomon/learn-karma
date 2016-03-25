@@ -9,8 +9,8 @@ describe('test myapp controller', function(){
         $controller = _$controller_;
     }));
     it('should be set by the initial value', function(){
-        var $scope = {};
-        var controller = $controller('MyController', { $scope: $scope });
-        expect($scope.greetMe).toEqual('World');
+        var $scop = {};
+        var controller = $controller('MyController', { $scope: $scop });
+        expect($scop.greetMe).toEqual('World');
     })
 });
